@@ -87,3 +87,4 @@ require (
 )
 
 replace google.golang.org/grpc v1.71.0 => google.golang.org/grpc v1.66.3
+replace github.com/v2fly/v2ray-core/v5 => github.com/ghxhy/v2ray-core/v5 v5.30.0.1
