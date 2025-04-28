@@ -5,7 +5,7 @@ go 1.24.2
 require (
 	github.com/v2fly/v2ray-core/v5 v5.29.3
 	golang.org/x/mobile v0.0.0-20250305212854-3a7bc9f8a4de
-	golang.org/x/sys v0.31.0
+	golang.org/x/sys v0.32.0
 )
 
 require github.com/pion/transport/v3 v3.0.7 // indirect
@@ -36,7 +36,7 @@ require (
 	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
 	github.com/klauspost/reedsolomon v1.12.4 // indirect
 	github.com/lunixbochs/struc v0.0.0-20241101090106-8d528fa2c543 // indirect
-	github.com/miekg/dns v1.1.63 // indirect
+	github.com/miekg/dns v1.1.65 // indirect
 	github.com/mustafaturan/bus v1.0.2 // indirect
 	github.com/mustafaturan/monoton v1.0.0 // indirect
 	github.com/onsi/ginkgo/v2 v2.19.0 // indirect
@@ -69,16 +69,16 @@ require (
 	go.starlark.net v0.0.0-20250318223901-d9371fef63fe // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
-	golang.org/x/crypto v0.36.0 // indirect
+	golang.org/x/crypto v0.37.0 // indirect
 	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
 	golang.org/x/mod v0.24.0 // indirect
-	golang.org/x/net v0.37.0 // indirect
-	golang.org/x/sync v0.12.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/net v0.39.0 // indirect
+	golang.org/x/sync v0.13.0 // indirect
+	golang.org/x/text v0.24.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
 	golang.org/x/tools v0.31.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250324211829-b45e905df463 // indirect
-	google.golang.org/grpc v1.71.0 // indirect
+	google.golang.org/grpc v1.71.1 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gvisor.dev/gvisor v0.0.0-20231020174304-b8a429915ff1 // indirect
@@ -87,4 +87,7 @@ require (
 )
 
 replace google.golang.org/grpc v1.71.0 => google.golang.org/grpc v1.66.3
-replace github.com/v2fly/v2ray-core/v5 => github.com/ghxhy/v2ray-core/v5 v5.30.0.1
+
+replace github.com/v2fly/v2ray-core/v5 => github.com/ghxhy/v2ray-core/v5 v5.0.0-20250428094436-8a3126e10203
+
+replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f
